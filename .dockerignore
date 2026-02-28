@@ -1,0 +1,22 @@
+# Исключаем из контекста сборки — не нужны в образе и могут мешать деплою
+.git
+.gitignore
+__pycache__
+*.pyc
+*.pyo
+.Python
+.env
+.venv
+venv
+*.md
+.DS_Store
+.idea
+.vscode
+*.swp
+*.swo
+запустить.ps1
+запустить.bat
+ИНСТРУКЦИЯ_ПО_ЗАПУСКУ.md
+ДЕПЛОЙ_БОТА.txt
+README.md
+psychologist_assistant.py
